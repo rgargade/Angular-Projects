@@ -1,0 +1,10 @@
+.anchor{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 400px;
+  /* margin-right: 100px; */
+  height: 2vh;
+  /* width:150vh; */
+
+}

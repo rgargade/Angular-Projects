@@ -1,0 +1,12 @@
+<h2>Component One</h2>
+Enter your Number:<input type="text" #txtnum>
+<button (click)="addnumber(txtnum.value)">Add number</button>
+
+<button (click)="getNumList()">Get Number List</button>
+
+
+@for(number of numberList; track number.id;let index=$index){
+  <ul><li>
+    number List :{{index}} - {{number}} 
+  </li></ul>
+  }
